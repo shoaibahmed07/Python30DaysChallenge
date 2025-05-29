@@ -1,0 +1,66 @@
+🚀 Day 2 – #30DaysOfPythonChallenge ✅
+Hosted by: Indian Data Club
+Topic: Integers, Floats, Strings, Booleans, and Type Conversion
+Challenge: Calculate the Area of a Rectangle using user input.
+
+🧠 Concepts Covered
+Working with basic data types:
+
+int, float, str, bool
+
+Type conversion using int(), float(), str()
+
+Getting input from the user using input()
+
+Simple arithmetic operations
+
+Printing results with print()
+
+🔍 Problem Statement
+Create a Python program that:
+
+Prompts the user to enter the length of a rectangle.
+
+Prompts the user to enter the width of a rectangle.
+
+Calculates the area of the rectangle using the formula:
+
+Area
+=
+Length
+×
+Width
+Area=Length×Width
+Prints the area in a user-friendly message.
+
+Solution (Python Code)
+python
+Copy
+Edit
+# Day 2 - Calculate Area of a Rectangle
+
+# Get user input
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+
+# Calculate area
+area = length * width
+
+# Display the result
+print("The area of the rectangle is:", area)
+✅ Sample Output
+yaml
+Copy
+Edit
+Enter the length of the rectangle: 5.5
+Enter the width of the rectangle: 3.2
+The area of the rectangle is: 17.6
+📘 What I Learned
+How to take and convert user input into appropriate numeric types.
+
+How to perform simple arithmetic operations in Python.
+
+Reinforced understanding of Python's basic data types and their interactions.
+
+
+
