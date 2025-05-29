@@ -34,9 +34,18 @@ Area=Length×Width
 Prints the area in a user-friendly message.
 
 Solution (Python Code)
-python
-Copy
-Edit
+# Day 2 - Calculate Area of a Rectangle
+
+# Get user input
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+
+# Calculate area
+area = length * width
+
+# Display the result
+print("The area of the rectangle is:", area)
+
 # Day 2 - Calculate Area of a Rectangle
 
 # Get user input
